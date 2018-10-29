@@ -57,5 +57,8 @@ function payLoan(balance, interest, payment, defer) {
 /***************************** Write some logs **********************************/
 /****************************to see some results*********************************/
 
-console.log(payCreditCard(3570,15.45,210))
-console.log(payLoan(3570,18.99,210,12))
+console.log(payCreditCard(3570-840,0.1545,210));
+
+console.log(payLoan(385000,0.4,0,10))
+console.log(payLoan(385000,0.52,0,15))
+console.log(payLoan(385000,0.29,0,0))
